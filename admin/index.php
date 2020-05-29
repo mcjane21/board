@@ -70,7 +70,7 @@
                           <li class="list-group-item "style="box-shadow: 0 1px 1px rgba(1,0,0,.1);">
                             <div class="list-group-item-body">
                               <div class="list-group-item-heading"><?php echo $mysqli->real_escape_string($pevent['MeetingName']); ?></div>
-                              <div class="list-group-item-text"><?php echo $mysqli->real_escape_string($pevent['MeetingDescription']); ?></div>
+                                <div class="list-group-item-text"><?php echo $mysqli->real_escape_string($pevent['MeetingDescription']); ?></div>
                             </div><br>
                             <div class="list-group-item-text col-sm-12 col-xs-12">
                               <span class="pull-left"><div class="icon  col-sm-12 col-xs-12" data-name="pin" data-code="f32e"><i class="zmdi zmdi-pin zmdi-hc-fw"></i><span><?php echo $mysqli->real_escape_string($pevent['MeetingVenue']); ?></span></div></span><br>
@@ -116,7 +116,7 @@
                               </div>
                             </div>
                           </div>
-                        <?php } ?>
+                          <?php } ?>
                         </div>
                     </li>
                   </ul><hr>
@@ -125,7 +125,7 @@
                       <div class="list-group-item-body" style="text-align:left;padding-left:10%;padding-right:10%">
                         <?php while($f_yrres = $s_yrres->fetch_array()){ ?>
                         <div class="list-group-item-text"><a href="boardresolutions.php?year=<?php echo $f_yrres['ResSeries'];?>">Calendar Year <?php echo $f_yrres['ResSeries'];?> Board Resolutions</a></div>
-                       <?php } ?>
+                        <?php } ?>
                       </div>
                     </li>
                   </ul>
