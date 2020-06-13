@@ -73,6 +73,7 @@
       </div>
       <?php include("../include/footer.php");?> 
     </section>
+  </div>  
     <script src="../include/assets/js/vendor.bundle.js"></script>
     <script src="../include/assets/js/app.bundle.js"></script>
 </body>

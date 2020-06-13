@@ -101,7 +101,9 @@
       </div>
       <?php include("../include/footer.php");?> 
     </section>
-    <script src="../include/assets/js/vendor.bundle.js"></script>
-    <script src="../include/assets/js/app.bundle.js"></script>
+  </div>  
+  <script src="../include/assets/js/vendor.bundle.js"></script>
+  <script src="../include/assets/js/app.bundle.js"></script>
 </body>
 </html>
+  

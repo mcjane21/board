@@ -10,27 +10,27 @@
           </ul>
           <ul class="nav navbar-nav left-menu hidden-xs">
             <li>
-              <a href="home.php" class="nav-link">
+              <a href="index.php" class="nav-link">
                 <span>Home</span>
               </a>
             </li>
              <li>
-              <a href="home.php" "javascript:void(0)" class="nav-link">
+              <a href="folder.php" "javascript:void(0)" class="nav-link">
                 <span>Agenda Folders</span>
               </a>
             </li>
              <li>
-              <a href="home.php" class="nav-link">
+              <a href="proposal.php" class="nav-link">
                 <span>Proposals</span>
               </a>
             </li>
              <li>
-              <a href="home.php"class="nav-link">
+              <a href="boardresolutions.php"class="nav-link">
                 <span>Board Resolutions</span>
               </a>
             </li>
             <li>
-              <a href="home.php" class="nav-link">
+              <a href="reports.php" class="nav-link">
                 <span>Reports</span>
               </a>
             </li>
@@ -43,9 +43,9 @@
               <ul class="dropdown-menu dropdown-lg-menu dropdown-menu-left btn-primary p-15 text-center">
                 <li>
                   <ul>
-                    <li><a href="home.php"><i class="zmdi zmdi-email"></i><span>Admin</span></a></li>
-                    <li><a href="home.php"><i class="zmdi zmdi-accounts-list"></i><span>Proponent</span></a></li>
-                    <li><a href="home.php"><i class="zmdi zmdi-comment-text"></i><span>Attendee</span></a></li>
+                    <li><a href="account-admin.php"><i class="zmdi zmdi-email"></i><span>Admin</span></a></li>
+                    <li><a href="account-proponent.php"><i class="zmdi zmdi-accounts-list"></i><span>Proponent</span></a></li>
+                    <li><a href="account-attendee.php"><i class="zmdi zmdi-comment-text"></i><span>Attendee</span></a></li>
                   </ul>
                 </li>
               </ul>
@@ -64,10 +64,10 @@
               </a>
               <ul class="dropdown-menu btn-primary dropdown-menu-right">
                 <li>
-                  <a href="{{ route('myprofile') }}"><i class="zmdi zmdi-account"></i> Profile</a>
+                  <a href="my-profile.php"><i class="zmdi zmdi-account"></i> Profile</a>
                 </li>
                 <li>
-                  <a href="{{ route('myaccount') }}"><i class="zmdi zmdi-settings"></i> Account Settings</a>
+                  <a href="my-account.php"><i class="zmdi zmdi-settings"></i> Account Settings</a>
                 </li>
                 <li>
                   <a href="{{ route('logout') }}" onclick="event.preventDefault();
@@ -146,18 +146,46 @@
         <div class="sidebar-inner sidebar-push">
           <ul class="nav nav-pills nav-stacked">
             <li class="sidebar-header">NAVIGATION</li>
-            <li class="active"><a href="{!! url('/home'); !!}"><i class="zmdi zmdi-home"></i>Home</a></li>
-            <li class="active"><a href="{!! url('/folder'); !!}"><i class="zmdi zmdi-folder-outline"></i>Agenda Folders</a></li>
-            <li class="active"><a href="{!! url('/proposal'); !!}"><i class="zmdi zmdi-calendar-note"></i>Proposals</a></li>
-            <li class="active"><a href="{!! url('/resolution'); !!}"><i class="zmdi zmdi-file"></i>Board Resolutions</a></li>
-            <li class="active"><a href="{!! url('/reports'); !!}"><i class="zmdi zmdi-view-subtitles"></i>Reports</a></li>
+            <li>
+              <a href="index.php" class="nav-link">
+                <span>Home</span>
+              </a>
+            </li>
+             <li>
+              <a href="folder.php" "javascript:void(0)" class="nav-link">
+                <span>Agenda Folders</span>
+              </a>
+            </li>
+             <li>
+              <a href="proposal.php" class="nav-link">
+                <span>Proposals</span>
+              </a>
+            </li>
+             <li>
+              <a href="boardresolutions.php"class="nav-link">
+                <span>Board Resolutions</span>
+              </a>
+            </li>
+            <li>
+              <a href="reports.php" class="nav-link">
+                <span>Reports</span>
+              </a>
+            </li>
 
-            <li class="nav-dropdown">
-              <a href="#"><i class="zmdi zmdi-accounts-alt"></i>Accounts</a>
-              <ul class="nav-sub">
-                <li><a href="{!! url('/admin'); !!}">Administrator</a></li>
-                <li><a href="{!! url('/proponent'); !!}">Proponent</a></li>
-                <li><a href="{!! url('/attendee'); !!}">Attendee</a></li>
+            <li class="dropdown dropdown-lg app_menu_launcher hidden-xs">
+              <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown" aria-expanded="false">
+                <span>Accounts</span>
+                <span class="caret"></span>
+              </a>
+
+              <ul class="dropdown-menu dropdown-lg-menu dropdown-menu-left btn-primary p-15 text-center">
+                <li>
+                  <ul>
+                    <li><a href="account-admin.php"><i class="zmdi zmdi-email"></i><span>Admin</span></a></li>
+                    <li><a href="account-proponent.php"><i class="zmdi zmdi-accounts-list"></i><span>Proponent</span></a></li>
+                    <li><a href="account-attendee.php"><i class="zmdi zmdi-comment-text"></i><span>Attendee</span></a></li>
+                  </ul>
+                </li>
               </ul>
             </li>
             <li class="nav-dropdown"><a href="#"><i class="zmdi zmdi-case-download"></i>Archives</a>
