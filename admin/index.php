@@ -51,10 +51,8 @@
                         </div>
                         <div class="col-xs-3">
                           <select class="select form-control pull-right" name="year" style="float:right" id="previd">
-                            <option <?php if(!isset($countyear)){echo "selected";} ?> disabled value="null">SELECT YEAR</option>
-                            <?php  for($yc=0; $yc<$yearcount; $yc++) { ?>
-                            <option value="<?php echo $year[$yc]; ?>" <?php if($year[$yc] == $condYear) {echo "selected";} ?>><?php echo $year[$yc]; ?></option>
-                            <?php } ?>
+                            <option disabled value="null">SELECT YEAR</option>
+                            <option value=""></option>
                           </select>
                         </div>
                       </div>
@@ -96,7 +94,6 @@
                     <li class="list-group-item">
                       <div class="list-group-item-body" >
                         <div class="list-group-item-heading" ><a>New...</a></div>
-                        <?php while($f_res = $s_res->fetch_array()){ ?>
                           <div class="list-group-item-text" style="text-align:left;padding-left:10%;padding-right:10%"><a href="" data-toggle="modal" data-target="#boardResolution<?php echo $f_res['ResID'];?>" value="<?php echo $f_res['ResID'];?>">BOR Resolution <?php echo $f_res['ResNo'];?> Series of <?php echo $f_res['ResSeries'];?></a></div>
                         <!--View Resolution modal-->    
                           <div class="modal fade" id="boardResolution<?php echo $f_res['ResID'];?>" tabindex="-1" role="dialog" aria-labelledby="basic_modal">
@@ -116,16 +113,13 @@
                               </div>
                             </div>
                           </div>
-                          <?php } ?>
                         </div>
                     </li>
                   </ul><hr>
                   <ul class="list-group">
                     <li class="list-group-item">
                       <div class="list-group-item-body" style="text-align:left;padding-left:10%;padding-right:10%">
-                        <?php while($f_yrres = $s_yrres->fetch_array()){ ?>
-                        <div class="list-group-item-text"><a href="boardresolutions.php?year=<?php echo $f_yrres['ResSeries'];?>">Calendar Year <?php echo $f_yrres['ResSeries'];?> Board Resolutions</a></div>
-                        <?php } ?>
+                        <div class="list-group-item-text"><a href="boardresolutions.php?year=">Calendar Year < Board Resolutions</a></div>
                       </div>
                     </li>
                   </ul>

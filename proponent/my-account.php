@@ -48,8 +48,8 @@
                       </button>
                       <input type="file" id="pic" name="pic" class="file-upload" style="display:none" accept="image/*"/>
                     </ul>
-                    <h2 class="name"><?php echo ($f_User['FName'].' '.$f_User['LName']); ?></h2>
-                   <h5 class="name"><?php echo ucwords($f_User['Position']); ?></h5>
+                    <h2 class="name"></h2>
+                   <h5 class="name"></h5>
                  </header>
                 <div class="card-footer text-center">
                  <center><p id="alertpic" ></p></center>
@@ -70,7 +70,7 @@
                       <div class="form-group is-empty">
                         <label for="uname" class="col-md-5 control-label">Username</label>
                         <div class="col-md-5">
-                        <input type="text" id="uname" name="uname" value="<?php echo ($_SESSION['username']); ?>" class="form-control" aria-required="true" data-rule-required="true" data-rule-rangelength="[1,100]" minlength="1">
+                        <input type="text" id="uname" name="uname" value="" class="form-control" aria-required="true" data-rule-required="true" data-rule-rangelength="[1,100]" minlength="1">
                         </div>
                       </div>
                         <div class="form-group is-empty">

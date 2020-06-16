@@ -27,10 +27,8 @@
               <div class="col-xs-3" >
                 <header id="header" >
                   <select id="years" name="years" class="select form-control" style="float:right;color:white;">
-                    <option <?php if(!isset($countyear)){echo "selected";} ?> disabled>SELECT YEAR</option>
-                    <?php for($yc=0; $yc<$yearcount; $yc++){ ?>
-                    <option value="<?php echo $year[$yc];?>" <?php if($year[$yc] == $currentyear){echo "selected";} ?> ><?php echo $year[$yc];?></option> 
-                    <?php } ?>
+                    <option isabled>SELECT YEAR</option>
+                    <option value=""></option>
                   </select>
                 </header>
               </div>

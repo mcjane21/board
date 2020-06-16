@@ -45,61 +45,61 @@
                       <div class="form-group">
                       <label for="nameInput" class="col-sm-2 control-label">Full Name</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['FName'].' '.$f_User['MName'].' '.$f_User['LName'].' '.$f_User['ExtName'])?></p>
+                        <p></p>
                       </div>
                       <label for="websiteInput" class="col-sm-2 control-label">Religion</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['Religion'])?></p>
+                        <p></p>
                       </div>
                       </div>
                       <div class="form-group">
                       <label for="nameInput" class="col-sm-2 control-label">Gender</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['Gender'])?></p>
+                        <p></p>
                       </div>
                       <label for="ccInput" class="col-sm-2 control-label">Email</label>
                       <div class="col-sm-4">
-                        <p><?php echo ($f_User['Email'])?></p>
+                        <p></p>
                       </div>
                       </div>
                       <div class="form-group">
                       <label for="nameInput" class="col-sm-2 control-label">Birthday</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['Bday'])?></p>
+                        <p></p>
                       </div>
                       <label for="ccInput" class="col-sm-2 control-label">Contact Number</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['ContactNo'])?></p>
+                        <p></p>
                       </div>
                       </div>
                       <div class="form-group">
                       <label for="nameInput" class="col-sm-2 control-label">Address</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['Street'].' '.$f_User['Barangay'].' '.$f_User['TownCity'].' '.$f_User['Province']);?></p>
+                        <p></p>
                       </div>
                       <label for="ccInput" class="col-sm-2 control-label">College/Office</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_collegeoffice['UnitName'])?></p>
+                        <p></p>
                       </div>
                       </div>
                       <div class="form-group">
                       <label for="nameInput" class="col-sm-2 control-label">Zip</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['Zip'])?></p>
+                        <p></p>
                       </div>
                       <label for="ccInput" class="col-sm-2 control-label">Position</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['Position'])?></p>
+                        <p></p>
                       </div>
                       </div>
                       <div class="form-group">
                       <label for="nameInput" class="col-sm-2 control-label">Civil Status</label>
                       <div class="col-sm-4">
-                        <p><?php echo strtoupper($f_User['CivilStatus'])?></p>
+                        <p></p>
                       </div>
                       <label for="ccInput" class="col-sm-2 control-label">Username</label>
                       <div class="col-sm-4">
-                        <p><?php echo ($f_User['Username'])?></p>
+                        <p></p>
                       </div>
                       </div>
                       <div class="form-group">

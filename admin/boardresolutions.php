@@ -24,7 +24,7 @@
                   <h1>Board Resolutions</h1>
                     <ol class="breadcrumb">
                       <li><a href="index.php">Home</a></li>
-                      <li><a href="boardresolutions.php">Board Resolutions CY <?php echo $year;?></a></li>
+                      <li><a href="boardresolutions.php">Board Resolutions CY </a></li>
                     </ol>
                 </header>
               </div>
@@ -36,7 +36,7 @@
               <div class="col-xs-8">
                 <div class="card">
                   <header class="card-heading border-bottom">
-                    <h2 class="card-title">Board Resolutions CY <?php echo $year;?></h2>
+                    <h2 class="card-title">Board Resolutions CY </h2>
                     <small>Shown below are all the Board Resolutions of your chosen year.</small>
                     <div class="card-search">
                       <div id="productsTable_wrapper" class="form-group label-floating is-empty">
@@ -54,16 +54,14 @@
                     </ul>
                   </header>
                     <div class="card-body scrollbar max-h-350">
-                      <?php while($f_res = $s_res->fetch_array()){ ?>
                       <ul class="list-group ">
                         <li class="list-group-item ">
                           <div class="list-group-item-body">
-                            <div class="list-group-item-heading">Resolution No. <?php echo $f_res['ResNo'];?> Series of <?php echo $f_res['ResSeries'];?></div>
-                            <div class=""><?php echo ucwords($f_res['ResDescription']);?></div>
+                            <div class="list-group-item-heading">Resolution No. Series of ></div>
+                            <div class=""></div>
                           </div>
                         </li>
                       </ul>
-                      <?php } ?>
                     </div>
                     <div class="card-footer border-top">
                     </div>
@@ -78,18 +76,14 @@
                   <ul class="list-group">
                     <li class="list-group-item">
                     <div class="list-group-item-body" style="text-align:left;">
-                      <?php while($f_yrres = $s_yrres->fetch_array()){ ?>
-                        <div class="list-group-item-text"><a href="boardresolutions.php?year=<?php echo $f_yrres['ResSeries'];?>">Calendar Year <?php echo $f_yrres['ResSeries'];?> Board Resolutions</a></div>
-                      <?php } ?>
+                        <div class="list-group-item-text"><a href="boardresolutions.php?year=">Calendar Year Board Resolutions</a></div>
                     </div>
                     </li>
                   </ul><hr>
                   <ul class="list-group">
                     <li class="list-group-item">
                       <div class="list-group-item-body" style="text-align:left;">
-                      <?php while($f_meeting = $s_meeting->fetch_array()){ ?>
-                        <div class=""><a href="boardresolutions-meeting.php?meeting=<?php echo $f_meeting['MeetingID'];?>&&year=<?php echo $year;?>"><?php echo $f_meeting['MeetingName'];?></a></div><hr>
-                      <?php } ?>
+                        <div class=""><a href="boardresolutions-meeting.php?meeting="></a></div><hr>
                       </div>
                     </li>
                   </ul>
