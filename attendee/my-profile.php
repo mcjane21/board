@@ -13,7 +13,7 @@
 </head>
 <body>
   <div id="app_wrapper">
-    <?php include("../include/header-proponent.php");?>
+    <?php include("../include/header-attendee.php");?>
     <section id="content_outer_wrapper" style="padding-left:0%;padding-bottom:0%;margin-bottom:300px">
       <div id="content_wrapper" >
         <div id="header_wrapper" class="header-sm">

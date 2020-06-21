@@ -25,8 +25,8 @@
 </head>
 <body>
   <div id="app_wrapper">
-    <?php include("../include/header-proponent.php");?>
-    <section id="content_outer_wrapper"style="padding-left:0%;padding-bottom:0%;margin-bottom:300px">
+    <?php include("../include/header-attendee.php");?>
+    <section id="content_outer_wrapper" style="padding-left:0%;padding-bottom:0%;margin-bottom:300px">
       <div id="content_wrapper" class="card-overlay">
         <div id="header_wrapper" class="header-xl profile-header">
         </div>
@@ -103,14 +103,14 @@
                   <div class="row" style="padding:30px 200px 10px 200px;" > 
                     <div class="col-xs-12 col-sm-6">
                       <div class="card type--profile">
-                        <header class="card-heading card-background" id="card_img_02">
-                          <img src="../include/assets/img/bor_img/agnes.jpg" alt="" class="img-circle">
-                        </header>
-                          <div class="card-body">
-                            <h3 class="name">Dir. Agnes M. Espinas-Tolentino</h3>
-                              <span class="title"><br>Reginal Director, National Economic Development Authority Region V</span>
+                              <header class="card-heading card-background" id="card_img_02">
+                                <img src="../include/assets/img/bor_img/agnes.jpg" alt="" class="img-circle">
+                              </header>
+                              <div class="card-body">
+                                <h3 class="name">Dir. Agnes M. Espinas-Tolentino</h3>
+                                  <span class="title"><br>Reginal Director, National Economic Development Authority Region V</span>
                                 <button type="button" class="btn btn-primary btn-round">Member</button>
-                          </div>
+                              </div>
                       </div>
                     </div>
                     <div class="col-xs-12 col-sm-6">
@@ -154,16 +154,16 @@
                   </div>
                   <div class="row" style="padding:30px 200px 10px 200px;" >
                     <div class="col-xs-12 col-sm-6">
-                        <div class="card type--profile">
-                          <header class="card-heading card-background" id="card_img_02">
-                            <img src="../include/assets/img/bor_img/ibo.jpg" alt="" class="img-circle">
-                          </header>
+                      <div class="card type--profile">
+                        <header class="card-heading card-background" id="card_img_02">
+                          <img src="../include/assets/img/bor_img/ibo.jpg" alt="" class="img-circle">
+                        </header>
                           <div class="card-body">
                             <h3 class="name">Engr. Clemente Ibo</h3>
                             <span class="title"><br>Private Sector Representative</span>
                             <button type="button" class="btn btn-primary btn-round">Member</button>
                           </div>
-                        </div>
+                      </div>
                     </div>
                     <div class="col-xs-12 col-sm-6">
                       <div class="card type--profile">
@@ -177,25 +177,25 @@
                           </div>
                       </div>
                     </div>
-                  </div>
+                    </div>
                   <div class="row" style="padding:30px 200px 10px 200px;" >
                     <div class="col-xs-12 col-sm-6">
-                        <div class="card type--profile">
-                          <header class="card-heading card-background" id="card_img_02">
-                            <img src="../include/assets/img/bor_img/brinas.jpg" alt="" class="img-circle">
-                          </header>
-                          <div class="card-body">
+                      <div class="card type--profile">
+                        <header class="card-heading card-background" id="card_img_02">
+                           <img src="../include/assets/img/bor_img/brinas.jpg" alt="" class="img-circle">
+                        </header>
+                        <div class="card-body">
                             <h3 class="name">Dir. Tomas B. Briñas</h3>
                               <span class="title"><br>Regional Director, DOST Region V</span>
                               <button type="button" class="btn btn-primary btn-round">Member</button>
-                          </div>
                         </div>
+                      </div>
                     </div>
                     <div class="col-xs-12 col-sm-6">
                       <div class="card type--profile">
                         <header class="card-heading card-background" id="card_img_02">
                           <img src="../include/assets/img/bor_img/brian.jpg" alt="" class="img-circle">
-                          </header>
+                        </header>
                           <div class="card-body">
                             <h3 class="name">Mr. Brian Mitchel R. De La Rama</h3>
                               <span class="title"><br>Chairperson, University Student Council</span>
@@ -209,9 +209,9 @@
             </div>
           </div>
       </div>
-      <?php include("../include/footer.php");?> 
-    </section>
-  </div>  
+    <?php include("../include/footer.php");?>   
+    </section> 
+    </div>
     <script src="../include/assets/js/vendor.bundle.js"></script>
     <script src="../include/assets/js/app.bundle.js"></script>
 </body>
